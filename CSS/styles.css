@@ -162,10 +162,11 @@ body {
     font-size: 16px;
     line-height: 1.87;
     letter-spacing: 0.06em;
-    width: 216px;
+    min-width: 216px;
     height: 50px;
     border-radius: 4px;
     border-color: transparent;
+    padding: 10px 32px;
 }
 
 /* Main-sections */
@@ -234,6 +235,8 @@ body {
 
 .team-list > li {
     padding-bottom: 30px;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 0px 0px 4px 4px;
 }
 
 .section-team-name {
@@ -328,6 +331,31 @@ body {
     padding: 6px 22px;
 }
 
+.button-all {
+    min-width: 73px;
+    padding: 6px 25px;
+}
+
+.button-site {
+    min-width: 125px;
+    padding: 6px 22px;
+}
+
+.button-applications {
+    min-width: 112px;
+    padding: 6px 22px;
+}
+
+.button-designe {
+    min-width: 103px;
+    padding: 6px 22px;
+}
+
+.button-marketing {
+    min-width: 130px;
+    padding: 6px 22px;
+}
+
 .portfolio-button:hover,
 .portfolio-button:active,
 .portfolio-button:focus {
@@ -346,6 +374,11 @@ body {
     flex-wrap: wrap;
     gap: 30px;
 }
+
+.portfolio-list > li {
+    border: 1px solid #EEEEEE
+}
+
 .portfolio-title {
     font-weight: 700;
     font-size: 18px;
